@@ -11,7 +11,7 @@ const pagoPorHora = 15;
       total += totalDia;
 
       const row = tabla.insertRow();
-      row.innerHTML = `<td>${fecha}</td><td>${horas}</td><td>S/ ${pagoPorHora}</td><td>S/ ${totalDia}</td>`;
+      row.innerHTML = `<td>${fecha}</td><td>${horas}</td><td>S/ ${totalDia}</td>`;
 
       totalMes.innerText = `Total : S/ ${total}`;
       document.getElementById("form").reset();
