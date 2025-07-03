@@ -17,9 +17,13 @@ body {
   }
 
   table, th, td {
+     background-color: transparent !important;
+       color: yellowgreen !important; /* asegura que el texto sea blanco */
     border: 1px solid #fff;
     font-size: larger;
     font-weight: bold;
+   
+  
   }
 
   th, td {
@@ -44,25 +48,26 @@ body {
     font-size: 16px;
     padding: 12px 24px;
     border-radius: 8px;
-    border: 2px solid #ab678f; /* Verde Bootstrap */
-    color: #ab678f;
+    border: 2px solid yellowgreen; /* Verde Bootstrap */
+    color: yellowgreen;
     /* background-color: white; */
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-color: #ab678f;
+    border-color: yellowgreen;
   }
   
   .boton-agregar:hover {
-    background-color: #ab678f;
-    color: white;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold ;
     transform: scale(1.05);
-    border-color: whitesmoke;
+    border-color: black;
   }
   
 
   #totalMes {
     font-weight: bold;
-    color: #5cb9c2;
+    color: #34eebe;
     font-size: 34px;
     margin-top: 20px;
   }
